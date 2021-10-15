@@ -1,0 +1,154 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #871F78;
+    padding: 0.5rem;
+    height: 10vh;
+}
+
+.logo{
+    font-weight:bold;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Montserrat';
+
+}
+.hidden {
+	display: none;
+}
+
+
+.container-fluid{
+    background-color: #696969;
+}
+
+.header-2{
+    margin: 5px 0px;
+}
+
+.set-profile-pic{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    background-color: #FF00FF;
+    color: white;
+}
+
+.logout{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat';
+    background-color: #FF00FF;
+    color: white;
+}
+
+
+
+.welcome-msg{
+    color: #FF00FF;
+    font-size: 1.3 rem;
+    font-family: 'Open Sans';
+    text-align: center;
+    font-weight: 330px;
+}
+
+.main-body{
+    height:  80.5vh;
+}
+
+.user-details { 
+    height: 90vh; 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+    text-align:justify;
+    background-color: #708090;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+}
+
+.chat-box{
+    height: 100vh;
+    background-color: #696969;
+
+}
+
+.chat-title{
+    background-color: #696969;
+    color: white;
+    height: 10%;
+    padding: 10px 5px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.check-friends{
+    background-color: #871F78;
+    color: white;
+    height: 10vh;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 25px;
+}
+
+.chat-body{
+    font-family: 'Open Sans';
+    height: 80%;
+    overflow-y: scroll;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column-reverse;
+    background-color: #000000;
+    background-image: url(../images/chat-bg.png);
+}
+
+.message-form{
+    padding: 10px;
+    height:  10%;
+}
+
+.emojionearea > .emojionearea-editor
+{
+    min-height: 40px;
+    max-height: 40px;
+    width:70%;
+}
+
+.emojionearea > .emojionearea-button {
+  display:none !important;
+  
+}
+
+.send-button{
+    
+}
+
+.share-button{
+   
+    cursor: pointer;
+}
+
+.main{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
